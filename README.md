@@ -51,6 +51,7 @@ The dataset used for this project categorizes song attributes, metadata, and use
 
 ### Node properties:
 
+```
 Song {name: STRING}
 
 Genre {name: STRING}
@@ -77,8 +78,9 @@ Tempo {name: STRING}
 
 Valence {name: STRING}
 
+```
 
-
+```
 Relationship properties:
 
 The relationships:
@@ -108,6 +110,8 @@ The relationships:
 (:Song)-[:TOTAL_LIKES]->(:Likes)
 
 (:Artist)-[:HAS_GENRE]->(:Genre)
+
+```
 
 ## Implementation Strategies
 
@@ -139,6 +143,13 @@ The relationships:
 - **Graph Data Model for Music**: Represents relationships between songs, artists, genres, etc.
 - **Semantic Relationships**: Enriches understanding of music attributes and interactions.
 - **User-Centric Recommendations**: Tailors recommendations based on user preferences.
+
+## Yet to be decided
+
+- Evaluation Strategy
+- Architectural modifications
+  
+
 
 
 
