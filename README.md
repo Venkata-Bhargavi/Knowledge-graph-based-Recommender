@@ -1,4 +1,4 @@
-# KG Based Recommender
+# Knowledge Graph Based Music Recommendation System with LLMs and neo4j
 
 
 
