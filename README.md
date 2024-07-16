@@ -1,4 +1,4 @@
-# Knowledge Graph Based Music Recommendation System with LLMs and neo4j
+# Knowledge Graph Based New Music Discovery and Recommendation System with LLMs and neo4j
 
 
 
