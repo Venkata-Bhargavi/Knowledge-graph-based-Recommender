@@ -80,8 +80,9 @@ Valence {name: STRING}
 
 ```
 
+### Relationship properties:
 ```
-Relationship properties:
+
 
 The relationships:
 
