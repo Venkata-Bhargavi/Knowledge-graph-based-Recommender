@@ -79,6 +79,36 @@ Valence {name: STRING}
 
 
 
+Relationship properties:
+
+The relationships:
+
+(:Song)-[:HAS_TAG]->(:Tag)
+
+(:Song)-[:LISTEN_BY]->(:User)
+
+(:Song)-[:PERFORMED_BY]->(:Artist)
+
+(:Song)-[:HAS_DANCEABILITY]->(:Danceability)
+
+(:Song)-[:HAS_ACOUSTICNESS]->(:Acousticness)
+
+(:Song)-[:HAS_ENERGY]->(:Energy)
+
+(:Song)-[:HAS_LIVENESS]->(:Liveness)
+
+(:Song)-[:HAS_TEMPO]->(:Tempo)
+
+(:Song)-[:HAS_VALENCE]->(:Valence)
+
+(:Song)-[:RELEASED_IN]->(:Year)
+
+(:Song)-[:HAS_GENRE]->(:Genre)
+
+(:Song)-[:TOTAL_LIKES]->(:Likes)
+
+(:Artist)-[:HAS_GENRE]->(:Genre)
+
 ## Implementation Strategies
 
 ### Enhanced Exposure
