@@ -26,17 +26,13 @@ The dataset used for this project categorizes song attributes, metadata, and use
 3. **User Interactions**: Tags, User, Playcount, etc.
 
 
-### Pipe Line:
-
-<img width="461" alt="Screenshot 2024-07-16 at 1 59 33 PM" src="https://github.com/user-attachments/assets/8d18eb81-ecd6-436a-8cd9-bdd376c215c7">
 
 
 ### Challenges
 
-- **Limited Exposure**: Despite TikTok's vast user base, many new artists find it difficult to gain traction.
+- **Limited Exposure**: Despite TikTok's vast user base, many new artists find it difficult to gain traction or popularity.
 - **Content Diversity**: Dominance of popular genres and established artists limits exposure to diverse musical styles.
-- **Viral Promotion**: Mechanisms for promoting new music and nurturing artist-fan relationships are underdeveloped.
-- **Community Engagement**: Engagement features for artists are relatively nascent compared to other platforms.
+
 
 ## Dataset Insights
 
