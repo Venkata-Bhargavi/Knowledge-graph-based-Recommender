@@ -1,4 +1,4 @@
-# RAG-Graph
+# KG Based Recommender
 
 
 ## Introduction:
