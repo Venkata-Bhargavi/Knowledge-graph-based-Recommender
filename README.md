@@ -45,17 +45,29 @@ The dataset used for this project categorizes song attributes, metadata, and use
 ### Node properties:
 
 Song {name: STRING}
+
 Genre {name: STRING}
+
 Year {name: STRING}
+
 Artist {name: STRING}
+
 Likes {name: STRING}
+
 Tag {name: STRING}
+
 User {name: STRING}
+
 Danceability {name: STRING}
+
 Acousticness {name: STRING}
+
 Energy {name: STRING}
+
 Liveness {name: STRING}
+
 Tempo {name: STRING}
+
 Valence {name: STRING}
 
 
