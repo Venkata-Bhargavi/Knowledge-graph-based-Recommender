@@ -11,13 +11,16 @@ The explosive growth of social media platforms has revolutionized the way music 
 
 ## Team:
 
-- Krishna J
-- Bhargavi S
+- Krishna J   (Building KG, Query Analysis)
+- Bhargavi S   (Feature Extraction from Audio, Tags generation usind DL models)
 
   
 ## Dataset Insights
 
-The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations and enhancing music discovery on TikTok.
+The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations and enhancing music discovery on platforms like TikTok Spotify.
+
+
+![image](https://github.com/user-attachments/assets/81e7e498-cce4-4baf-a68b-d621a8d1796e)
 
 ### Key Features
 
@@ -26,6 +29,9 @@ The dataset used for this project categorizes song attributes, metadata, and use
 3. **User Interactions**: Tags, User, Playcount, etc.
 
 
+We generate a Mel Spectogram, which is a visual representation of sound that emphasizes frequencies important to human perception, using a nonlinear scale (Mel scale) to better reflect how we hear pitch differences.
+
+Once we have a Mel Spectogram, we then extract some relevant features based on certains logics as given below
 
 
 ### Challenges
@@ -43,6 +49,7 @@ The dataset used for this project categorizes song attributes, metadata, and use
 1. **Song Attributes**: Danceability, Acousticness, Energy, etc.
 2. **Metadata**: Genre, Year, Artist, Likes, etc.
 3. **User Interactions**: Tags, User, Playcount, etc.
+
 
 
 ### Node properties:
