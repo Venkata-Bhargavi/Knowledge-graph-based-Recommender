@@ -1,6 +1,7 @@
 # KG Based Recommender
 
 
+
 ## Introduction:
 The explosive growth of social media platforms has revolutionized the way music is discovered and consumed, offering both opportunities and challenges for aspiring musicians. Among these platforms, TikTok has emerged as a powerhouse for viral content and music promotion, yet many talented artists struggle to break through the noise and gain visibility.
 
@@ -8,6 +9,12 @@ The explosive growth of social media platforms has revolutionized the way music 
 - Enhanced Querying and Analysis
 
 
+## Team:
+
+- Krishna J
+- Bhargavi S
+
+  
 ## Dataset Insights
 
 The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations and enhancing music discovery on TikTok.
