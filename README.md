@@ -51,6 +51,9 @@ The dataset used for this project categorizes song attributes, metadata, and use
 
 ## Implementation Strategies
 
+![image](https://github.com/user-attachments/assets/59337280-d36c-4f19-a444-de8949621b49)
+
+
 ### Enhancing Recommendations with Knowledge Graphs
 
 - **Graph Data Model for Music**: Represents relationships between songs, artists, genres, etc.
