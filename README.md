@@ -94,6 +94,11 @@ The relationships:
 (:Song)-[:LISTEN_BY]->(:User)
 
 (:Song)-[:PERFORMED_BY]->(:Artist)
+(:Song)-[:RELEASED_IN]->(:Year)
+
+(:Song)-[:HAS_GENRE]->(:Genre)
+
+(:Song)-[:TOTAL_LIKES]->(:Likes)
 
 (:Song)-[:HAS_DANCEABILITY]->(:Danceability)
 
@@ -107,13 +112,6 @@ The relationships:
 
 (:Song)-[:HAS_VALENCE]->(:Valence)
 
-(:Song)-[:RELEASED_IN]->(:Year)
-
-(:Song)-[:HAS_GENRE]->(:Genre)
-
-(:Song)-[:TOTAL_LIKES]->(:Likes)
-
-(:Artist)-[:HAS_GENRE]->(:Genre)
 
 ```
 
