@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The rapid growth of digital platforms has revolutionized how content is consumed, offering both opportunities and challenges. In this project, we aim to develop a recommendation system leveraging knowledge graphs and large language models (LLMs) on the Million Songs dataset to provide personalized music recommendations.
+The rapid growth of digital platforms has revolutionized how content is consumed, offering both opportunities and challenges. In this project, we aim to develop a recommendation system leveraging knowledge graphs and large language models (LLMs) on the Million Songs dataset to provide personalized music recommendations. ![Dataset](https://www.kaggle.com/datasets/undefinenull/million-song-dataset-spotify-lastfm)
 
 ## Complex Data Representation
 
