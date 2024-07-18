@@ -67,12 +67,8 @@ The dataset used for this project categorizes song attributes, metadata, and use
 
 To evaluate the effectiveness of our recommendation system, we will use the following metrics:
 
-- **Recommender System Metrics**:
-  - Precision and Recall
-  - F1 Score
-  - Mean Average Precision (MAP)
-  - Mean Reciprocal Rank (MRR)
-  - Normalized Discounted Cumulative Gain (NDCG)
+- Normalized Discounted Cumulative Gain (NDCG): Measure the ranking quality of the retrieved items.
+- Graph Coverage: Assess how much of the knowledge graph is utilized in responses
 
 ## Conclusion
 
