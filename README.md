@@ -1,4 +1,4 @@
-# Knowledge Graph Based New Music Discovery and Recommendation System with LLMs and neo4j
+# Knowledge Graph-Based Recommendation System with LLMs and Neo4j
 
 
 
@@ -18,7 +18,7 @@ The rapid growth of digital platforms has revolutionized how content is consumed
   
 ## Dataset Insights
 
-The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations and enhancing music discovery on platforms like TikTok Spotify.
+The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations.
 
 
 ![image](https://github.com/user-attachments/assets/81e7e498-cce4-4baf-a68b-d621a8d1796e)
