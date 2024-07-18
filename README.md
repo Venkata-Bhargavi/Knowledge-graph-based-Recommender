@@ -12,23 +12,42 @@ The rapid growth of digital platforms has revolutionized how content is consumed
 
 ## Team
 
-- Krishna J (Building Knowledge Graph, Query Analysis)
-- Bhargavi S (Feature Extraction from Audio, Tags generation using DL models)
+- Krishna J (Building Knowledge Graph, Query Analysis using LLMs)
+- Bhargavi S (Feature Extraction from Audio, Tags generation using Neural Networks, Prompt Enhancement)
 
   
 ## Dataset Insights
 
 The dataset used for this project categorizes song attributes, metadata, and user interactions, facilitating personalized recommendations.
 
-
-![image](https://github.com/user-attachments/assets/81e7e498-cce4-4baf-a68b-d621a8d1796e)
-
-
 ### Key Features
 
 - **Song Attributes**: Danceability, Acousticness, Energy, etc.
 - **Metadata**: Genre, Year, Artist, Likes, etc.
 - **User Interactions**: Tags, User, Playcount, etc.
+
+
+### Knowledge Graph Nodes and Relationships
+
+- **Nodes**: Song, Genre, Year, Artist, Likes, Tag, User, Danceability, Acousticness, Energy, Liveness, Tempo, Valence
+- **Relationships**:
+  - (:Song)-[:HAS_TAG]->(:Tag)
+  - (:Song)-[:LISTENED_BY]->(:User)
+  - (:Song)-[:PERFORMED_BY]->(:Artist)
+  - (:Song)-[:RELEASED_IN]->(:Year)
+  - (:Song)-[:HAS_GENRE]->(:Genre)
+  - (:Song)-[:TOTAL_LIKES]->(:Likes)
+  - (:Song)-[:HAS_DANCEABILITY]->(:Danceability)
+  - (:Song)-[:HAS_ACOUSTICNESS]->(:Acousticness)
+  - (:Song)-[:HAS_ENERGY]->(:Energy)
+  - (:Song)-[:HAS_LIVENESS]->(:Liveness)
+  - (:Song)-[:HAS_TEMPO]->(:Tempo)
+  - (:Song)-[:HAS_VALENCE]->(:Valence)
+
+
+![image](https://github.com/user-attachments/assets/81e7e498-cce4-4baf-a68b-d621a8d1796e)
+
+
 
 ## Implementation Strategies
 
@@ -43,23 +62,6 @@ The dataset used for this project categorizes song attributes, metadata, and use
 - **Natural Language Understanding**: Process user queries to generate relevant recommendations.
 - **Contextual Recommendations**: Use LLMs to understand user context and preferences for better recommendations.
 
-### Knowledge Graph Nodes and Relationships
-
-- **Nodes**: Song, Genre, Year, Artist, Likes, Tag, User, Danceability, Acousticness, Energy, Liveness, Tempo, Valence
-- **Relationships**:
-  - (:Song)-[:HAS_TAG]->(:Tag)
-  - (:Song)-[:LISTENED_BY]->(:User)
-  - (:Song)-[:PERFORMED_BY]->(:Artist)
-  - (:Song)-[:HAS_DANCEABILITY]->(:Danceability)
-  - (:Song)-[:HAS_ACOUSTICNESS]->(:Acousticness)
-  - (:Song)-[:HAS_ENERGY]->(:Energy)
-  - (:Song)-[:HAS_LIVENESS]->(:Liveness)
-  - (:Song)-[:HAS_TEMPO]->(:Tempo)
-  - (:Song)-[:HAS_VALENCE]->(:Valence)
-  - (:Song)-[:RELEASED_IN]->(:Year)
-  - (:Song)-[:HAS_GENRE]->(:Genre)
-  - (:Song)-[:TOTAL_LIKES]->(:Likes)
-  - (:Artist)-[:HAS_GENRE]->(:Genre)
 
 ## Evaluation Strategy
 
