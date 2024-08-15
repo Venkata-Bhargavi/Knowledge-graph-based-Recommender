@@ -37,13 +37,27 @@ This approach combines entity extraction techniques with a Large Language Model 
 
 ## Installation Guide
 
-1. Clone the repository:
+1. Clone the repository: `git clone https://github.com/Venkata-Bhargavi/Knowledge-graph-based-Recommender.git`
 
-2. Create a virtual environment (optional but recommended):
+2. Add Neo4j credentials in `.env` file
+   
+   > NEO4J_URI =
+   > 
+   > NEO4J_USERNAME =
+   > 
+   > NEO4J_PASSWORD =
 
-3. Install the required dependencies: `pip install -r requirements.txt`
+3. Download the Following Ollama models
 
-4. run `streamlit app.py`
+   **Get local Ollama from the following Link: https://github.com/ollama/ollama**
+
+   > Ollama pull all-minilm
+   > 
+   > ollama pull "tomasonjo/llama3-text2cypher-demo"
+   
+4. Install the required dependencies: `pip install -r requirements.txt`
+
+5. run `streamlit app.py`
 
 *Open your web browser and navigate to `http://localhost:8501` to access the Streamlit app*
 
