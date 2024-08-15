@@ -1,5 +1,9 @@
 # Knowledge Graph-Based Recommender System
-- By Venkata Bhargavi S & Krishnakanth J
+**Developed By:**
+
+> Venkata Bhargavi S &
+> 
+> Krishnakanth J
 
 ## Introduction
 
