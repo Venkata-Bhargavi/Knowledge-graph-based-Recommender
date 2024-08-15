@@ -1,9 +1,9 @@
 # Knowledge Graph-Based Recommender System
 **Developed By:**
 
-> Venkata Bhargavi S &
+> Venkata Bhargavi S (002724793) &
 > 
-> Krishnakanth J
+> Krishnakanth J (002724795)
 
 ## Introduction
 
