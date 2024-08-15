@@ -1,0 +1,14 @@
+langchain
+openai
+neo4j
+pandas
+langchain-community
+python-dotenv
+langchain-community
+ollama
+datasets
+streamlit
+torch 
+transformers
+
+ipywidgets
