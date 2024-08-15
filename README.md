@@ -17,6 +17,7 @@ This project implements a knowledge graph-based recommender system using Large L
 
 ## Architecture Diagram
 
+![arch_diag](https://github.com/user-attachments/assets/0485025d-2102-469a-90b5-8adc91a84ce9)
 
 
 
