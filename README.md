@@ -7,9 +7,14 @@
 
 ## Introduction
 
-This project implements a knowledge graph-based recommender system using Large Language Models (LLMs) with various prompt patterns, Neo4j for Knowledge Graph construction, and Streamlit for user interaction. The system aims to provide personalized recommendations by leveraging the power of knowledge graphs and advanced natural language processing techniques.
+The objective of the Knowledge Graph-Based Movie Recommender System project is to develop a sophisticated movie recommendation engine that integrates knowledge graphs, generative AI, and Large Language Models (LLMs). The system aims to deliver highly personalized movie recommendations by leveraging complex data relationships and advanced AI techniques.
 
+**Key Goals:**
 
+1. *Knowledge Graph Utilization:* Implement a knowledge graph using Neo4j to capture and query intricate relationships between movies, actors, directors, and genres.
+2. *Generative AI and LLM Integration:* Enhance recommendation quality through generative AI and LLMs for improved query understanding, context generation, and nuanced recommendations.
+3. *User-Friendly Interface:* Provide an intuitive interface for seamless interaction, allowing users to input natural language queries and receive relevant movie suggestions.
+4. *Demonstration of Graph-Based Technology:* Showcase the efficacy of graph-based data structures in delivering accurate and contextually relevant recommendations.
 
 ## Flow
 
