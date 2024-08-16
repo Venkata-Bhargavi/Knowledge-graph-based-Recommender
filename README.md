@@ -80,6 +80,31 @@ This process enhances search results in a Neo4j graph database by using an embed
 
 ![image](https://github.com/user-attachments/assets/1e0cb867-9475-4cfa-b882-6656bc276657)
 
+### Fine tuning LLM:
+
+**Installation of Required Packages:**
+- Install unsloth, xformers, trl, peft, accelerate, and bitsandbytes to support fine-tuning and model operations.
+  
+**Model Setup:**
+- Load the LLaMA3 model with 4-bit quantization to save memory.
+- Apply LoRA adapters for efficient fine-tuning, configuring parameters such as r, lora_alpha, lora_dropout, etc.
+  
+**Data Preparation:**
+- Format the dataset in the ChatML format for conversational fine-tuning.
+- Create training examples using the schema and questions to generate Cypher queries.
+
+**Training:**
+- Use SFTTrainer from Huggingface TRL to fine-tune the model with specified training arguments.
+- Monitor GPU memory usage and training progress.
+
+**Inference:**
+- Use the fine-tuned model for generating Cypher queries. Apply the ChatML template with the add_generation_prompt parameter set to True
+
+**Saving and Loading Models:**
+- Save the model locally or push it to Huggingface’s model hub.
+- Load the saved model for future inference, ensuring to enable inference mode for efficient operation.
+
+
 
 ## Installation Guide
 
