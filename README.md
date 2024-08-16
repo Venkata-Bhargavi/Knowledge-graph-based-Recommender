@@ -40,9 +40,6 @@ This project implements a knowledge graph-based recommender system using Large L
 
 7. **.env**: Used to securely store and manage environment variables, such as Neo4j credentials, ensuring that sensitive information remains protected and easily configurable.
 
-8. **GitHub**: Used for version control and collaboration throughout the project, hosting the codebase, tracking changes, and enabling contributions from team members.
-
-These tools and technologies were integrated to build a knowledge graph-based recommender system that leverages advanced NLP and graph database techniques to deliver personalized recommendations.
 
 
 ## Approaches
