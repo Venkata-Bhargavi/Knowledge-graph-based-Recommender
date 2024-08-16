@@ -18,7 +18,8 @@ The objective of the Knowledge Graph-Based Movie Recommender System project is t
 
 ## Architecture Diagram
 
-![arch_diag](https://github.com/user-attachments/assets/0485025d-2102-469a-90b5-8adc91a84ce9)
+![image](https://github.com/user-attachments/assets/fad867c3-1a49-493c-90ea-ea73843bdaae)
+
 
 ## Project Workflow
 
