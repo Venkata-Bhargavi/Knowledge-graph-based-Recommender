@@ -65,6 +65,11 @@ This process enhances search results in a Neo4j graph database by using an embed
 - **Result Formatting:** The raw results from the database are formatted by the language model into a clear and understandable response.
 - **Final Output:** The function returns and prints a well-structured summary of the query results, making it easier for users to interpret the data.
 
+### Graph Model
+
+![image](https://github.com/user-attachments/assets/1e0cb867-9475-4cfa-b882-6656bc276657)
+
+
 ## Installation Guide
 
 1. Clone the repository: `git clone https://github.com/Venkata-Bhargavi/Knowledge-graph-based-Recommender.git`
