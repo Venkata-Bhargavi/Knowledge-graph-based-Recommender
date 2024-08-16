@@ -50,7 +50,7 @@ This project implements a knowledge graph-based recommender system using Large L
 - **Execute the Query:** The generated Cypher query is run against the Neo4j graph database to fetch relevant results.
 - **Format the Results:** The raw results from the database are then formatted by the language model into a more readable and understandable output for the user.
 
-### 2. Embedding-Based (Embed User Input + Graph Index Vector Search)
+### 2. Embedding-Based Agent(Embed User Input + Graph Index Vector Search)
 This process enhances search results in a Neo4j graph database by using an embedding-based approach
 - **Question Embedding:** The user's question is converted into a vector embedding that captures its semantic meaning.
 - **Vector Index Search:** The function queries the graph database using the question embedding. It compares the embedding against a pre-built vector index of movie taglines to find the most similar results.
@@ -58,7 +58,7 @@ This process enhances search results in a Neo4j graph database by using an embed
 - **Result Formatting:** The raw search results are formatted by a language model into a clear and concise response, making the information easier to understand.
 - **Final Output:** The function returns and prints a well-structured summary of the search results, providing a user-friendly presentation of the most relevant movies based on the question's context.
 
-### 3. Entity Extraction + LLM (Entities Extraction using Graph Schema + Query Generation)
+### 3. Entity Extraction Based Agent + LLM (Entities Extraction using Graph Schema + Query Generation)
 
 - **Entity Extraction and Query Generation:** The function uses a language model to analyze the user's question and extract relevant entities (e.g., movie titles, genres). It then generates a Cypher query based on these entities using a predefined template.
 - **Query Execution:** The generated Cypher query is executed against the Neo4j graph database to fetch the required data.
@@ -96,7 +96,7 @@ This process enhances search results in a Neo4j graph database by using an embed
 
 *Open your web browser and navigate to `http://localhost:8501` to access the Streamlit app*
 
-Evaluation Results:
+## Evaluation Results:
 
 ![image](https://github.com/user-attachments/assets/a12740e9-cca4-46f1-a354-b5dfe605d48a)
 
