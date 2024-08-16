@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This project implements a knowledge graph-based recommender system using Large Language Models (LLMs), Neo4j for graph database management, and Streamlit for user interaction. The system aims to provide personalized recommendations by leveraging the power of knowledge graphs and advanced natural language processing techniques.
+This project implements a knowledge graph-based recommender system using Large Language Models (LLMs) with various prompt patterns, Neo4j for Knowledge Graph construction, and Streamlit for user interaction. The system aims to provide personalized recommendations by leveraging the power of knowledge graphs and advanced natural language processing techniques.
 
 
 
@@ -32,13 +32,15 @@ This project implements a knowledge graph-based recommender system using Large L
 
 3. **Large Language Models (LLMs)**: Utilized for natural language processing tasks such as converting user queries into Cypher queries, extracting relevant entities, and generating embeddings to match user inputs with the knowledge graph data.
 
-4. **Ollama**: Employed to run pre-trained language models locally. Models like `all-minilm` and `llama3-text2cypher-demo` were used to generate vector embeddings for similarity searches and convert natural language questions into structured Cypher queries.
+4. **Prompt Engineering:** Implemented various prompt patterns to generate effecient Cypher queries from user inputs, entity extractions, validating entities and relations of generated Cypher Queries with Graph Schema, structuring the final output
 
-5. **Python**: Used as the core programming language for implementing the backend logic, integrating with Neo4j, processing user queries, and deploying the Streamlit application.
+5. **Ollama**: Employed to run pre-trained language models locally. Models like `all-minilm` and `llama3-text2cypher-demo` were used to generate vector embeddings for similarity searches and convert natural language questions into structured Cypher queries.
 
-6. **Cypher**: Employed to interact with the Neo4j database by executing generated queries, allowing us to retrieve and manipulate graph data based on the user’s input.
+6. **Python**: Used as the core programming language for implementing the backend logic, integrating with Neo4j, processing user queries, and deploying the Streamlit application.
 
-7. **.env**: Used to securely store and manage environment variables, such as Neo4j credentials, ensuring that sensitive information remains protected and easily configurable.
+7. **Cypher**: Employed to interact with the Neo4j database by executing generated queries, allowing us to retrieve and manipulate graph data based on the user’s input.
+
+8. **.env**: Used to securely store and manage environment variables, such as Neo4j credentials, ensuring that sensitive information remains protected and easily configurable.
 
 
 
