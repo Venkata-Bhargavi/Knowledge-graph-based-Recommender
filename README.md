@@ -29,15 +29,24 @@ This project implements a knowledge graph-based recommender system using Large L
 
 ### 1. Simple Graph Agent
 
-This approach uses a straightforward graph traversal algorithm to generate recommendations based on direct relationships in the knowledge graph.
+- **Convert Question to Cypher Query:** The function uses a language model to convert a user's question into a Cypher query based on the graph database schema.
+- **Execute the Query:** The generated Cypher query is run against the Neo4j graph database to fetch relevant results.
+- **Format the Results:** The raw results from the database are then formatted by the language model into a more readable and understandable output for the user.
 
-### 2. Embedding-Based
+### 2. Embedding-Based (Embed User Input + Graph Index Vector Search)
+This process enhances search results in a Neo4j graph database by using an embedding-based approach
+- **Question Embedding:** The user's question is converted into a vector embedding that captures its semantic meaning.
+- **Vector Index Search:** The function queries the graph database using the question embedding. It compares the embedding against a pre-built vector index of movie taglines to find the most similar results.
+- **Retrieve and Rank Results:** The database returns the top matching movie titles and taglines along with their similarity scores, based on the comparison of embeddings.
+- **Result Formatting:** The raw search results are formatted by a language model into a clear and concise response, making the information easier to understand.
+- **Final Output:** The function returns and prints a well-structured summary of the search results, providing a user-friendly presentation of the most relevant movies based on the question's context.
 
-This method utilizes vector embeddings to capture semantic relationships between entities, enabling more nuanced recommendations.
+### 3. Entity Extraction + LLM (Entities Extraction using Graph Schema + Query Generation)
 
-### 3. Entity Extraction + LLM
-
-This approach combines entity extraction techniques with a Large Language Model to understand user queries and generate context-aware recommendations.
+- **Entity Extraction and Query Generation:** The function uses a language model to analyze the user's question and extract relevant entities (e.g., movie titles, genres). It then generates a Cypher query based on these entities using a predefined template.
+- **Query Execution:** The generated Cypher query is executed against the Neo4j graph database to fetch the required data.
+- **Result Formatting:** The raw results from the database are formatted by the language model into a clear and understandable response.
+- **Final Output:** The function returns and prints a well-structured summary of the query results, making it easier for users to interpret the data.
 
 ## Installation Guide
 
