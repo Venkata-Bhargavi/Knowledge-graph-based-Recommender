@@ -98,12 +98,15 @@ This process enhances search results in a Neo4j graph database by using an embed
 
 ## Evaluation Results:
 
+> Accuracy: 90%
+
 ![image](https://github.com/user-attachments/assets/a12740e9-cca4-46f1-a354-b5dfe605d48a)
 
-**Purpose of Evaluation: **
+**Purpose of Evaluation:**
 The evaluation aims to assess how well the fine-tuned model can translate user requests (in natural language) into accurate Cypher queries that can be executed on the Neo4j database to retrieve movie recommendations.
 
-**Evaluation Metric: **The metric used is "generated_queries_match proportion", which measures the similarity or accuracy between the generated Cypher queries and the actual (expected) Cypher queries.
+**Evaluation Metric:** 
+The metric used is "generated_queries_match proportion", which measures the similarity or accuracy between the generated Cypher queries and the actual (expected) Cypher queries.
 
 **Results Interpretation:**
 
@@ -114,10 +117,10 @@ The evaluation aims to assess how well the fine-tuned model can translate user r
 
 ## Challenges
 
-1. **Short contextual data**: Dealing with limited context in user queries and knowledge graph entries.
+1. **Short contextual data**: Dealing with limited context in Tabular data used for creating Knowledge Graphs.
 2. **Cypher query generation**: Ensuring valid relationships and entities in generated Cypher queries.
 3. **Open-source LLM limitations**: Managing API call restrictions when using open-source language models.
-4. **Understanding User Queries**: Accurately mapping user input to entities and intents within the knowledge graph.
+4. **Understanding User Queries**: Accurately mapping user input to valid entities and relationships with the knowledge graphs schema, improve the quality of Cypher query generation.
 
 ## Contributing
 
