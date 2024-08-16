@@ -24,6 +24,26 @@ This project implements a knowledge graph-based recommender system using Large L
 ![arch_diag](https://github.com/user-attachments/assets/0485025d-2102-469a-90b5-8adc91a84ce9)
 
 
+## Technology Stack
+
+1. **Neo4j**: Used to store and manage the knowledge graph, allowing us to efficiently query and traverse relationships between entities like movies, genres, and actors to provide relevant recommendations.
+
+2. **Streamlit**: Implemented to build the interactive user interface, enabling users to input their queries and view personalized recommendations directly in a web browser.
+
+3. **Large Language Models (LLMs)**: Utilized for natural language processing tasks such as converting user queries into Cypher queries, extracting relevant entities, and generating embeddings to match user inputs with the knowledge graph data.
+
+4. **Ollama**: Employed to run pre-trained language models locally. Models like `all-minilm` and `llama3-text2cypher-demo` were used to generate vector embeddings for similarity searches and convert natural language questions into structured Cypher queries.
+
+5. **Python**: Used as the core programming language for implementing the backend logic, integrating with Neo4j, processing user queries, and deploying the Streamlit application.
+
+6. **Cypher**: Employed to interact with the Neo4j database by executing generated queries, allowing us to retrieve and manipulate graph data based on the user’s input.
+
+7. **.env**: Used to securely store and manage environment variables, such as Neo4j credentials, ensuring that sensitive information remains protected and easily configurable.
+
+8. **GitHub**: Used for version control and collaboration throughout the project, hosting the codebase, tracking changes, and enabling contributions from team members.
+
+These tools and technologies were integrated to build a knowledge graph-based recommender system that leverages advanced NLP and graph database techniques to deliver personalized recommendations.
+
 
 ## Approaches
 
