@@ -16,17 +16,20 @@ The objective of the Knowledge Graph-Based Movie Recommender System project is t
 3. *User-Friendly Interface:* Provide an intuitive interface for seamless interaction, allowing users to input natural language queries and receive relevant movie suggestions.
 4. *Demonstration of Graph-Based Technology:* Showcase the efficacy of graph-based data structures in delivering accurate and contextually relevant recommendations.
 
-## Flow
-
-1. User inputs a query through the Streamlit interface
-2. The system processes the query using one of three approaches
-3. The chosen approach interacts with the Neo4j knowledge graph
-4. Results are retrieved and processed
-5. Recommendations are presented to the user via the Streamlit app
-
 ## Architecture Diagram
 
 ![arch_diag](https://github.com/user-attachments/assets/0485025d-2102-469a-90b5-8adc91a84ce9)
+
+## Project Workflow
+
+1. ***User Input:*** Users submit movie-related queries via a Streamlit interface.
+2. ***Data Preparation:*** Populate Neo4j with movie data to build the knowledge graph.
+3. ***Query Processing:***
+   - *Simple Graph Agent:* Converts queries into Cypher queries for Neo4j.
+   - *Embedding-Based Agent:* Uses semantic embeddings for vector search in the graph.
+   - *Entity Extraction Agent:* Extracts entities and generates Cypher queries.
+4. ***Result Aggregation:*** Combine and refine results from all approaches using an LLM.
+5. ***Output:*** Present personalized movie recommendations to the user.
 
 
 ## Technology Stack
