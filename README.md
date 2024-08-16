@@ -18,7 +18,7 @@ The objective of the Knowledge Graph-Based Movie Recommender System project is t
 
 **Detailed Document:** https://drive.google.com/file/d/1mV3NKGOkN-j3z9Qt2vfz-BnZ8XrUeAPA/view?usp=sharing
 
-**Youtube:**
+**Youtube:** https://youtu.be/C5TdBCJqrH4
 
 ## Huggingface Finetuned Model:  
 
