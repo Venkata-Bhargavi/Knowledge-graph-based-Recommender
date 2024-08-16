@@ -16,6 +16,10 @@ The objective of the Knowledge Graph-Based Movie Recommender System project is t
 3. *User-Friendly Interface:* Provide an intuitive interface for seamless interaction, allowing users to input natural language queries and receive relevant movie suggestions.
 4. *Demonstration of Graph-Based Technology:* Showcase the efficacy of graph-based data structures in delivering accurate and contextually relevant recommendations.
 
+**Detailed Document:** https://drive.google.com/file/d/1mV3NKGOkN-j3z9Qt2vfz-BnZ8XrUeAPA/view?usp=sharing
+
+**Youtube:**
+
 ## Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/fad867c3-1a49-493c-90ea-ea73843bdaae)
