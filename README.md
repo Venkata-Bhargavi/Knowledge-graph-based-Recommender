@@ -96,6 +96,22 @@ This process enhances search results in a Neo4j graph database by using an embed
 
 *Open your web browser and navigate to `http://localhost:8501` to access the Streamlit app*
 
+Evaluation Results:
+
+![image](https://github.com/user-attachments/assets/a12740e9-cca4-46f1-a354-b5dfe605d48a)
+
+**Purpose of Evaluation: **
+The evaluation aims to assess how well the fine-tuned model can translate user requests (in natural language) into accurate Cypher queries that can be executed on the Neo4j database to retrieve movie recommendations.
+
+**Evaluation Metric: **The metric used is "generated_queries_match proportion", which measures the similarity or accuracy between the generated Cypher queries and the actual (expected) Cypher queries.
+
+**Results Interpretation:**
+
+> True: 0.9 (90%)
+> 
+> False: 0.1 (10%)
+
+
 ## Challenges
 
 1. **Short contextual data**: Dealing with limited context in user queries and knowledge graph entries.
