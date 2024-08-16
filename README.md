@@ -20,6 +20,18 @@ The objective of the Knowledge Graph-Based Movie Recommender System project is t
 
 **Youtube:**
 
+## Huggingface Finetuned Model:  
+
+**16-bit Model:** https://huggingface.co/jkkn/finetuned_llama3_text_to_cypher_16bit
+
+**4-bit Model:** https://huggingface.co/jkkn/finetuned_llama3_text_to_cypher
+
+**LoRA Model:** https://huggingface.co/jkkn/finetuned_llama3_text_to_cypher_lora
+
+LLama is finetuned and pushed to **Huggingface**
+
+**Dataset:**  [https://github.com/Venkata-Bhargavi/Knowledge-graph-based-Recommender/blob/main/data/sampled_cleaned_movies_data_with_embeddings_30.csv](https://huggingface.co/datasets/MongoDB/embedded_movies)
+
 ## Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/fad867c3-1a49-493c-90ea-ea73843bdaae)
